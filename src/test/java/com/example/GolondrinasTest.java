@@ -19,11 +19,10 @@ public class GolondrinasTest {
         int energiaActual = unaGolondrina.energia();
         int energiaRecuperada = unaGolondrina.energiaRecuperadaAlComer(10);
         int energiaEsperada = energiaActual + energiaRecuperada;
-        int energiaFinal = energiaActual + energiaRecuperada;
 
         unaGolondrina.comer(10);
 
-        assertEquals(energiaEsperada, energiaFinal);
+        assertEquals(energiaEsperada, unaGolondrina.energia());
     }
 
     @Test
@@ -32,11 +31,10 @@ public class GolondrinasTest {
         int energiaActual = unaGolondrina.energia();
         int energiaConsumida = unaGolondrina.energiaConsumidaAlVolar(1);
         int energiaEsperada = energiaActual - energiaConsumida;
-        int energiaFinal = energiaActual - energiaConsumida;
 
         unaGolondrina.volar(1);
 
-        assertEquals(energiaEsperada, energiaFinal);
+        assertEquals(energiaEsperada, unaGolondrina.energia());
     }
 
     @Test
