@@ -20,7 +20,7 @@ public class Golondrina {
     }
 
     public EstadoDeAnimo estadoDeAnimo() {
-        return new EstadoDeAnimoEuforico();
+        return new EstadoDeAnimoDebil();
     }
 
     private void realizarDeseoCuandoNeutra() {
