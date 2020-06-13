@@ -13,8 +13,13 @@ public class Golondrina {
     }
 
     public void realizarDeseo() {
-        realizarDeseoCuandoEuforica();
+//        realizarDeseoCuandoEuforica();
 //        realizarDeseoCuandoDebil();
+        realizarDeseoCuandoNeutra();
+    }
+
+    private void realizarDeseoCuandoNeutra() {
+
     }
 
     void realizarDeseoCuandoEuforica() {
