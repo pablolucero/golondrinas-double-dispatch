@@ -13,9 +13,10 @@ public class Golondrina {
     }
 
     public void realizarDeseo() {
+        new EstadoDeAnimoEuforico().realizarDeseoPara(this);
 //        realizarDeseoCuandoEuforica();
 //        realizarDeseoCuandoDebil();
-        realizarDeseoCuandoNeutra();
+//        realizarDeseoCuandoNeutra();
     }
 
     private void realizarDeseoCuandoNeutra() {
