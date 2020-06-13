@@ -13,7 +13,11 @@ public class Golondrina {
     }
 
     public void realizarDeseo() {
-        shouldImplement();
+        realizarDeseoCuandoDebil();
+    }
+
+    void realizarDeseoCuandoDebil() {
+        this.comer(50);
     }
 
     public int energiaRecuperadaAlComer(int cantidadDeGramosIngeridos) {
