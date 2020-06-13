@@ -20,11 +20,11 @@ public class Golondrina {
     }
 
     public EstadoDeAnimo estadoDeAnimo() {
-        return new EstadoDeAnimoDebil();
+        return new EstadoDeAnimoNeutro();
     }
 
-    private void realizarDeseoCuandoNeutra() {
-
+    void realizarDeseoCuandoNeutra() {
+        // Me quedo descansando en mi árbol
     }
 
     void realizarDeseoCuandoEuforica() {
